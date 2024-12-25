@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Biodegradable Packaging - Box Solution Template</title>
+</head>
+<style>
+    progress::-webkit-progress-value {
+        background: #f97316;
+    }
+
+    table,
+    th,
+    td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+</style>
+
+<body class="font-sans">
+    <header class="sticky z-50 top-0 right-0 left-0 bg-slate-100 z-[9999]">
+        <div
+            class="w-full container mx-auto flex justify-between items-center px-5 py-5 xl:px-20 bg-transparent text-black opacity-100">
+
+            <a href="/">
+                <img src="./assets/img/logo.png" alt="logo" class="w-[150px]">
+            </a>
+            <div class="hamburger-menu relative flex flex-col justify-between gap-1 sm:hidden cursor-pointer">
+                <span class="bg-black w-6 h-1 rounded-md"></span>
+                <span class="bg-black w-6 h-1 rounded-md"></span>
+                <span class="bg-black w-6 h-1 rounded-md"></span>
+            </div>
+            <nav
+                class="hidden navigation z-99 fixed top-0 left-0 right-0 bottom-0 bg-slate-100 p-5 sm:static sm:block sm:bg-transparent sm:p-0">
+                <ul
+                    class="flex flex-col p-5 h-full bg-transparent opacity-100 text-black gap-4 rounded-xl sm:flex-row sm:p-0 transition-all uppercase">
+                    <li><a href="index.html" class="nav-link hover:underline ease-linear">Home</a></li>
+                    <li><a href="#about" class="nav-link hover:underline ease-linear">About</a></li>
+                    <li><a href="#product" class="nav-link hover:underline ease-linear">Product</a></li>
+                    <li><a href="#team" class="nav-link hover:underline ease-linear">Team</a></li>
+                    <li><a href="#contact" class="nav-link hover:underline ease-linear">Contact</a></li>
+                </ul>
+                <button
+                    class="close-hamburger-menu absolute text-black top-7 right-10 text-2xl sm:hidden">&times;</button>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <div class="container mx-auto flex flex-col gap-10 p-10 xl:px-20">
+            <h1 class="text-center font-bold text-4xl xl:text-5xl my-5">Biodegradable Packaging</h1>
+            <img src="./assets/img/Gallery-11.jpg" alt="Biodegradable Packaging">
+            <h2 class="font-bold text-2xl">Custom Cardboard Boxes</h2>
+            <ul>
+                <li><strong>Description:</strong> Tailored to fit your product dimensions perfectly, our custom cardboard boxes provide maximum protection and branding opportunities.</li>
+                <li><strong>Features:</strong> Various sizes and styles, customizable printing options, sturdy construction.</li>
+            </ul>
+            <h2 class="font-bold text-2xl">Eco-Friendly Packaging</h2>
+            <ul>
+                <li><strong>Description:</strong>  Made from recycled materials, our eco-friendly packaging solutions help reduce environmental impact without compromising quality.</li>
+                <li><strong>Features:</strong> Biodegradable materials, sustainable printing inks, customizable designs.</li>
+            </ul>
+
+            <h2 class="font-bold text-2xl">Product Details</h2>
+            <table class="w-full border">
+                <thead>
+                    <tr>
+                        <th class="px-4 py-2">Information</th>
+                        <th class="px-4 py-2">Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="px-4 py-2">Custom Cardboard Boxes</td>
+                        <td class="px-4 py-2">Tailored to fit your product dimensions perfectly, our custom cardboard boxes provide maximum protection and branding opportunities.</td>
+                    </tr>
+                    <tr>
+                        <td class="px-4 py-2">Custom Cardboard Boxes</td>
+                        <td class="px-4 py-2">Tailored to fit your product dimensions perfectly, our custom cardboard boxes provide maximum protection and branding opportunities.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h2 class="font-bold text-2xl">Shipping</h2>
+            <table class="w-full border">
+                <thead>
+                    <tr>
+                        <th class="px-4 py-2">Information</th>
+                        <th class="px-4 py-2">Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="px-4 py-2">Standard Shipping</td>
+                        <td class="px-4 py-2">Cost-effective option for non-urgent deliveries. Delivery Time: Typically 3-7 business days.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <a href="/#product" class="bg-black text-white px-5 py-3 rounded-md mx-auto">All Product</a>
+        </div>
+    </section>
+    <footer class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 p-10 gap-7 xl:px-20">
+        <div class="flex flex-col gap-3">
+            <img src="./assets/img/logo.png" alt="logo" class="w-[130px]">
+            <h2>Helping your products connect with the world through effective web solutions.</h2>
+        </div>
+        <div class="flex flex-col gap-3">
+            <h2 class="text-xl font-semibold">Usefull Links</h2>
+            <ul class="flex flex-col gap-3">
+                <li><a class="hover:text-sky-600 transition-all" href="index.html">Home</a></li>
+                <li><a class="hover:text-sky-600 transition-all" href="#about">About</a></li>
+                <li><a class="hover:text-sky-600 transition-all" href="#services">Services</a></li>
+            </ul>
+        </div>
+        <div class="flex flex-col gap-3">
+            <h2 class="text-xl font-semibold">Our Services</h2>
+            <ul class="flex flex-col gap-3">
+                <li><a class="hover:text-sky-600 transition-all" href="#">Web Design</a></li>
+                <li><a class="hover:text-sky-600 transition-all" href="#">Web Development</a></li>
+                <li><a class="hover:text-sky-600 transition-all" href="#">E-commerce Solutions</a></li>
+                <li><a class="hover:text-sky-600 transition-all" href="#">SEO Optimization</a></li>
+            </ul>
+        </div>
+        <div class="flex flex-col gap-3">
+            <h2 class="text-xl font-semibold">Follow us</h2>
+            <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+            <div class="flex gap-3 text-2xl">
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+    <div class="p-10 bg-slate-100 text-center">
+        <h2>Copyright &copy; 2024. All Rights Reserved</h2>
+        <p>Developed By <a href="https://github.com/fjribptra" class="font-semibold text-sky-600">@fjribptra</a></p>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./assets/js/navigation.js" defer></script>
+    <script src="./assets/js/accordion.js" defer></script>
+    <script src="./assets/js/aosinit.js"></script>
+    <script src="./assets/js/swipperconfig.js"></script>
+</body>
+
+</html>
